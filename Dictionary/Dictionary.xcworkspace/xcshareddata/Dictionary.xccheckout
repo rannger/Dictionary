@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7C449D25-60EE-4A84-8126-84DC1762FBEA</string>
+	<string>96715ED3-E440-4BC3-A851-BF04911EC285</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Dictionary</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8D2F66B8-980E-4288-90E4-E27DAA207B1A</key>
+		<key>0E168B4E-2437-42C7-9E21-94DD42453663</key>
 		<string>ssh://github.com/rannger/Dictionary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Dictionary/Dictionary.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8D2F66B8-980E-4288-90E4-E27DAA207B1A</key>
+		<key>0E168B4E-2437-42C7-9E21-94DD42453663</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8D2F66B8-980E-4288-90E4-E27DAA207B1A</string>
+	<string>0E168B4E-2437-42C7-9E21-94DD42453663</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8D2F66B8-980E-4288-90E4-E27DAA207B1A</string>
+			<string>0E168B4E-2437-42C7-9E21-94DD42453663</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Dictionary</string>
 		</dict>
