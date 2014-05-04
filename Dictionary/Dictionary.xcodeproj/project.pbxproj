@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404ED34416754B40BD34228A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA900D9A2C465A87606835 /* libPods.a */; };
 		8F393F9218D214BF00F3ED14 /* RLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F393F9118D214BF00F3ED14 /* RLDetailViewController.m */; };
 		8F3AA2B418D0AB0100CF3661 /* word.db.gz in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AA2B318D0AB0100CF3661 /* word.db.gz */; };
-		8F3AA2BB18D0B09600CF3661 /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AA2BA18D0B09600CF3661 /* GZIP.m */; };
 		8F3AA2BD18D0B40C00CF3661 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3AA2BC18D0B40C00CF3661 /* libz.dylib */; };
 		8FAA192118CE00E600426CB3 /* RLWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA192018CE00E600426CB3 /* RLWord.m */; };
 		8FAA192A18CE018D00426CB3 /* CoreFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA192718CE018D00426CB3 /* CoreFunctions.m */; };
@@ -30,7 +30,6 @@
 		8FBFDA2318CCD44500BEDD37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBFDA0218CCD44500BEDD37 /* UIKit.framework */; };
 		8FBFDA2B18CCD44500BEDD37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFDA2918CCD44500BEDD37 /* InfoPlist.strings */; };
 		8FBFDA2D18CCD44500BEDD37 /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBFDA2C18CCD44500BEDD37 /* DictionaryTests.m */; };
-		8FBFDA4818CCD5D500BEDD37 /* libFMDB-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBFDA4718CCD5CA00BEDD37 /* libFMDB-IOS.a */; };
 		8FBFDA4E18CCD6A200BEDD37 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBFDA4D18CCD6A200BEDD37 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
@@ -42,49 +41,13 @@
 			remoteGlobalIDString = 8FBFD9FA18CCD44500BEDD37;
 			remoteInfo = Dictionary;
 		};
-		8FBFDA4018CCD5CA00BEDD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
-			remoteInfo = fmdb;
-		};
-		8FBFDA4218CCD5CA00BEDD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE4290EF12B42F870088BD94;
-			remoteInfo = FMDB;
-		};
-		8FBFDA4418CCD5CA00BEDD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BF5D041618416BB2008C5AA9;
-			remoteInfo = Tests;
-		};
-		8FBFDA4618CCD5CA00BEDD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6290CBB5188FE836009790F8;
-			remoteInfo = "FMDB-IOS";
-		};
-		8FBFDA4918CCD5DC00BEDD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6290CBB4188FE836009790F8;
-			remoteInfo = "FMDB-IOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BF9B93437644E9CB1F941F0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		8F393F9018D214BF00F3ED14 /* RLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLDetailViewController.h; sourceTree = "<group>"; };
 		8F393F9118D214BF00F3ED14 /* RLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLDetailViewController.m; sourceTree = "<group>"; };
 		8F3AA2B318D0AB0100CF3661 /* word.db.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = word.db.gz; path = Dictionary/res/word.db.gz; sourceTree = "<group>"; };
-		8F3AA2B918D0B09600CF3661 /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = ../../gzip/GZIP/GZIP.h; sourceTree = "<group>"; };
-		8F3AA2BA18D0B09600CF3661 /* GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = ../../gzip/GZIP/GZIP.m; sourceTree = "<group>"; };
 		8F3AA2BC18D0B40C00CF3661 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8FAA191F18CE00E600426CB3 /* RLWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLWord.h; sourceTree = "<group>"; };
 		8FAA192018CE00E600426CB3 /* RLWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLWord.m; sourceTree = "<group>"; };
@@ -115,8 +78,8 @@
 		8FBFDA2818CCD44500BEDD37 /* DictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DictionaryTests-Info.plist"; sourceTree = "<group>"; };
 		8FBFDA2A18CCD44500BEDD37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FBFDA2C18CCD44500BEDD37 /* DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
-		8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
 		8FBFDA4D18CCD6A200BEDD37 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A8FA900D9A2C465A87606835 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +89,10 @@
 			files = (
 				8F3AA2BD18D0B40C00CF3661 /* libz.dylib in Frameworks */,
 				8FBFDA4E18CCD6A200BEDD37 /* libsqlite3.dylib in Frameworks */,
-				8FBFDA4818CCD5D500BEDD37 /* libFMDB-IOS.a in Frameworks */,
 				8FBFDA0118CCD44500BEDD37 /* CoreGraphics.framework in Frameworks */,
 				8FBFDA0318CCD44500BEDD37 /* UIKit.framework in Frameworks */,
 				8FBFD9FF18CCD44500BEDD37 /* Foundation.framework in Frameworks */,
+				404ED34416754B40BD34228A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,15 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F3AA2B818D0B06000CF3661 /* gzip */ = {
-			isa = PBXGroup;
-			children = (
-				8F3AA2B918D0B09600CF3661 /* GZIP.h */,
-				8F3AA2BA18D0B09600CF3661 /* GZIP.m */,
-			);
-			name = gzip;
-			sourceTree = "<group>";
-		};
 		8FBFD9F218CCD44500BEDD37 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +117,7 @@
 				8FBFDA2618CCD44500BEDD37 /* DictionaryTests */,
 				8FBFD9FD18CCD44500BEDD37 /* Frameworks */,
 				8FBFD9FC18CCD44500BEDD37 /* Products */,
+				8BF9B93437644E9CB1F941F0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,11 +135,11 @@
 			children = (
 				8F3AA2BC18D0B40C00CF3661 /* libz.dylib */,
 				8FBFDA4D18CCD6A200BEDD37 /* libsqlite3.dylib */,
-				8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */,
 				8FBFD9FE18CCD44500BEDD37 /* Foundation.framework */,
 				8FBFDA0018CCD44500BEDD37 /* CoreGraphics.framework */,
 				8FBFDA0218CCD44500BEDD37 /* UIKit.framework */,
 				8FBFDA2018CCD44500BEDD37 /* XCTest.framework */,
+				A8FA900D9A2C465A87606835 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +164,6 @@
 				8FAA192918CE018D00426CB3 /* NSString+Path.m */,
 				8FAA192C18CE057200426CB3 /* RLDB.h */,
 				8FAA192D18CE057200426CB3 /* RLDB.m */,
-				8F3AA2B818D0B06000CF3661 /* gzip */,
 				8FBFDA1918CCD44500BEDD37 /* Images.xcassets */,
 				8FBFDA0518CCD44500BEDD37 /* Supporting Files */,
 			);
@@ -253,17 +207,6 @@
 			name = res;
 			sourceTree = "<group>";
 		};
-		8FBFDA3A18CCD5CA00BEDD37 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8FBFDA4118CCD5CA00BEDD37 /* fmdb */,
-				8FBFDA4318CCD5CA00BEDD37 /* libFMDB.a */,
-				8FBFDA4518CCD5CA00BEDD37 /* Tests.xctest */,
-				8FBFDA4718CCD5CA00BEDD37 /* libFMDB-IOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,14 +214,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FBFDA3018CCD44500BEDD37 /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
+				C96E5F3778EF42E0BD185973 /* Check Pods Manifest.lock */,
 				8FBFD9F718CCD44500BEDD37 /* Sources */,
 				8FBFD9F818CCD44500BEDD37 /* Frameworks */,
 				8FBFD9F918CCD44500BEDD37 /* Resources */,
+				2F614814A2F045A9800579E1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FBFDA4A18CCD5DC00BEDD37 /* PBXTargetDependency */,
 			);
 			name = Dictionary;
 			productName = Dictionary;
@@ -329,12 +273,6 @@
 			mainGroup = 8FBFD9F218CCD44500BEDD37;
 			productRefGroup = 8FBFD9FC18CCD44500BEDD37 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8FBFDA3A18CCD5CA00BEDD37 /* Products */;
-					ProjectRef = 8FBFDA3918CCD5CA00BEDD37 /* fmdb.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8FBFD9FA18CCD44500BEDD37 /* Dictionary */,
@@ -342,37 +280,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8FBFDA4118CCD5CA00BEDD37 /* fmdb */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = fmdb;
-			remoteRef = 8FBFDA4018CCD5CA00BEDD37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8FBFDA4318CCD5CA00BEDD37 /* libFMDB.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFMDB.a;
-			remoteRef = 8FBFDA4218CCD5CA00BEDD37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8FBFDA4518CCD5CA00BEDD37 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 8FBFDA4418CCD5CA00BEDD37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8FBFDA4718CCD5CA00BEDD37 /* libFMDB-IOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libFMDB-IOS.a";
-			remoteRef = 8FBFDA4618CCD5CA00BEDD37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8FBFD9F918CCD44500BEDD37 /* Resources */ = {
@@ -396,13 +303,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F614814A2F045A9800579E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96E5F3778EF42E0BD185973 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FBFD9F718CCD44500BEDD37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FAA192118CE00E600426CB3 /* RLWord.m in Sources */,
-				8F3AA2BB18D0B09600CF3661 /* GZIP.m in Sources */,
 				8FBFDA1518CCD44500BEDD37 /* RLMasterViewController.m in Sources */,
 				8FBFDA0F18CCD44500BEDD37 /* RLAppDelegate.m in Sources */,
 				8FBFDA0B18CCD44500BEDD37 /* main.m in Sources */,
@@ -429,11 +368,6 @@
 			isa = PBXTargetDependency;
 			target = 8FBFD9FA18CCD44500BEDD37 /* Dictionary */;
 			targetProxy = 8FBFDA2418CCD44500BEDD37 /* PBXContainerItemProxy */;
-		};
-		8FBFDA4A18CCD5DC00BEDD37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "FMDB-IOS";
-			targetProxy = 8FBFDA4918CCD5DC00BEDD37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,6 +471,7 @@
 		};
 		8FBFDA3118CCD44500BEDD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF9B93437644E9CB1F941F0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -545,8 +480,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../fmdb/src/extra",
-					"$(SRCROOT)/../fmdb/src/fmdb",
 				);
 				INFOPLIST_FILE = "Dictionary/Dictionary-Info.plist";
 				OTHER_LDFLAGS = (
@@ -560,6 +493,7 @@
 		};
 		8FBFDA3218CCD44500BEDD37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF9B93437644E9CB1F941F0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -568,8 +502,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../fmdb/src/extra",
-					"$(SRCROOT)/../fmdb/src/fmdb",
 				);
 				INFOPLIST_FILE = "Dictionary/Dictionary-Info.plist";
 				OTHER_LDFLAGS = (

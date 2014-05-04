@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.2):
+    - FMDB/standard
+  - FMDB/common (2.2)
+  - FMDB/standard (2.2):
+    - FMDB/common
+  - GZIP (1.0.2)
+
+DEPENDENCIES:
+  - FMDB
+  - GZIP
+
+SPEC CHECKSUMS:
+  FMDB: e0dd09464b4e1a1cd7fa51ea835ae821b5656865
+  GZIP: ee6763ce98d4f66e263aa0605f15ab484d44cf21
+
+COCOAPODS: 0.32.1
